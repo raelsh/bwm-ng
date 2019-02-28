@@ -128,8 +128,9 @@
   "defaultProject": "angular-starter",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "app",
-      "styleext": "scss"
+      "prefix": "bwm",
+      "styleext": "scss",
+      "spec":false
     },
     "@schematics/angular:directive": {
       "prefix": "app"
